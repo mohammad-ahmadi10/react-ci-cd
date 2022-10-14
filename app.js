@@ -7,7 +7,7 @@ App.use(express.static(path.join(__dirname , 'frontend/build')))
 const PORT = process.env.PORT | 8000;
 
 App.get('/names', async(req , res) =>{
-    res.send("Mohammad");
+    res.send("Mohammad ahmadi");
 })
 
 App.listen(PORT , ()=>{
